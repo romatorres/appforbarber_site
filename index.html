@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/output.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>App For Barber</title>
+</head>
+<body class="bg-background">
+    <main class="max-w-[1440px] m-auto">
+        <header class="">
+            <nav
+                class="lg:flex lg:justify-between items-center lg:px-24 md:px-14 px-5 p-3 border-b-2 border-gray01 bg-secondary">
+
+                <div class="flex justify-between items-center">
+                    <span class="cursor-pointer">
+                        <img src="assets/logo.png" alt="Logo" class="md:w-32 w-24">
+                    </span>
+
+                    <span class="text-3xl text-white cursor-pointer lg:hidden block">
+                        <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+                    </span>
+                </div>
+
+                <ul
+                    class="lg:flex items-center text-lg font-medium text-white text-center bg-secondary z-[-1] lg:z-auto lg:static absolute left-0 top-[-400px] lg:w-auto w-full lg:opacity-100 opacity-0 transition-all ease-in duration-500">
+
+                    <li class="lg:mx-7 mx-0 my-6 lg:my-0 hover:text-gray03 duration-500"><a href="#">Home</a></li>
+                    <li class="lg:mx-7 mx-0 my-6 lg:my-0 hover:text-gray03 duration-500"><a href="#">Sobre</a></li>
+                    <li class="lg:mx-7 mx-0 my-6 lg:my-0 hover:text-gray03 duration-500"><a href="#">Planos</a></li>
+                    <li class="lg:mx-7 mx-0 my-6 lg:my-0 hover:text-gray03 duration-500"><a href="#">Contatos</a></li>
+
+
+                    <button
+                        class="mx-2 lg:mb-0 mb-5 bg-gray01 text-sm font-semibold text-white w-28 h-9 rounded-lg hover:bg-gray02 hover:text-white duration-500">Dashboard</button>
+                    <button
+                        class="mx-2 lg:mb-0 mb-5 bg-primary text-sm font-bold text-secondary w-28 h-9 rounded-lg hover:bg-gray02 hover:text-white duration-500">Clientes</button>
+
+                </ul>
+            </nav>
+        </header>
+
+        <section class="bg-slide bg-cover bg-center lg:px-24 md:px-14 px-5 lg:py-12 md:py-10 py-6">
+            <div class="md:flex md:justify-between">
+                <div class="text-white font-paytone">
+                    <h1 class="lg:text-7xl lg:leading-tight lg:text-left md:text-6xl md:leading-tight md:text-left text-4xl text-center leading-normal">
+                        Moderno, bonito, inteligente... <br><span class="text-primary">App For Barber,</span> <br>um app para <br> Barbearias!! 
+                    </h1>
+                </div>
+                <div class="lg:w-[240px] md:w-[220px] md:flex md:justify-end hidden">
+                    <img src="assets/mockup01.png" alt="Mockup de celular">
+                </div>
+            </div>
+
+            <div class="font-nunito flex justify-center gap-10 mt-6">
+                <button
+                    class="bg-gray01 text-sm font-semibold text-white w-32 h-9 rounded-lg hover:bg-gray02 hover:text-white duration-500">Dashboard</button>
+                <button
+                    class="bg-primary text-sm font-bold text-secondary w-32 h-9 rounded-lg hover:bg-gray01 hover:text-white duration-500">Clientes</button>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
