@@ -12,6 +12,7 @@ module.exports = {
     },
     backgroundImage: {
       slide: "url('/assets/background_slide.png')",
+      contacts: "url('/assets/background_contatos.png')",
     },
     fontFamily: {
       'paytone': ['Paytone One', 'sans-serif'],
