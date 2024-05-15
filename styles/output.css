@@ -679,6 +679,10 @@ video {
   top: 92px;
 }
 
+.top-0{
+  top: 0px;
+}
+
 .isolate{
   isolation: isolate;
 }
@@ -697,6 +701,10 @@ video {
 
 .z-\[-2\]{
   z-index: -2;
+}
+
+.z-50{
+  z-index: 50;
 }
 
 .order-1{
@@ -809,6 +817,10 @@ video {
 
 .mt-7{
   margin-top: 1.75rem;
+}
+
+.mb-28{
+  margin-bottom: 7rem;
 }
 
 .box-border{
@@ -948,6 +960,22 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-auto{
+  width: auto;
+}
+
+.w-\[1440px\]{
+  width: 1440px;
+}
+
+.w-screen{
+  width: 100vw;
+}
+
+.min-w-\[1440px\]{
+  min-width: 1440px;
 }
 
 .max-w-\[1440px\]{
@@ -2124,6 +2152,14 @@ video {
   padding: 0.75rem;
 }
 
+.p-28{
+  padding: 7rem;
+}
+
+.p-32{
+  padding: 8rem;
+}
+
 .px-10{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -2164,19 +2200,13 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.py-9{
-  padding-top: 2.25rem;
-  padding-bottom: 2.25rem;
-}
-
-.py-5{
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.pb-28{
+  padding-bottom: 7rem;
 }
 
 .text-left{
@@ -2779,6 +2809,10 @@ video {
   forced-color-adjust: none;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Nunito", sans-serif;
 }
@@ -2964,8 +2998,17 @@ body {
     line-height: 1.75rem;
   }
 
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .md\:font-bold{
     font-weight: 700;
+  }
+
+  .md\:font-semibold{
+    font-weight: 600;
   }
 
   .md\:leading-tight{

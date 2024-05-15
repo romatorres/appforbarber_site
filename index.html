@@ -10,10 +10,10 @@
     <title>App For Barber</title>
 </head>
 
-<body class="bg-secondary">
+<body class="bg-secondary p-28">
     <div class="max-w-[1440px] m-auto">
         <!-- HEADER -->
-        <header class="">
+        <header class="fixed top-0 left-0 w-full z-50" id="#">
             <nav
                 class="lg:flex lg:justify-between items-center lg:px-24 md:px-14 px-5 p-3 border-b-2 border-gray01 bg-background">
 
@@ -30,9 +30,9 @@
                     class="lg:flex items-center font-medium text-white text-center bg-background z-10 lg:z-auto lg:static absolute top-[-280px] left-0 lg:w-auto w-full lg:opacity-100 opacity-0 transition-all ease-in duration-300">
 
                     <li class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="#">Home</a></li>
-                    <li class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="#">Sobre</a></li>
-                    <li class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="#">Planos</a></li>
-                    <li class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="#">Contatos</a></li>
+                    <li class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="#sobre">Sobre</a></li>
+                    <li class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="#planos">Planos</a></li>
+                    <li class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="#contatos">Contatos</a></li>
 
                     <button
                         class="mx-2 lg:my-0 my-6 bg-gray01 font-medium text-white px-10 py-2 rounded-lg hover:bg-gray02 hover:text-white duration-500">Barbearias</button>
@@ -67,7 +67,7 @@
         </section>
 
         <!-- ABOUT -->
-        <section class="lg:px-24 px-5 lg:py-16 py-10 bg-background border-b-2 border-gray01">
+        <section class="lg:px-24 px-5 lg:py-16 py-10 bg-background border-b-2 border-gray01" id="sobre">
             <div class="flex flex-col items-center justify-center md:mb-20 mb-10">
                 <img src="assets/Icon_logo.png" alt="Icone da Logo" class="md:w-[230px] w-[150px]">
                 <p class="font-paytone text-white md:text-5xl text-3xl">Sobre Nós</p>
@@ -105,7 +105,7 @@
         </section>
 
         <!-- PLANS -->
-        <section class="lg:px-24 px-5 lg:py-16 py-10 bg-background border-b-2 border-gray01">
+        <section class="lg:px-24 px-5 lg:py-16 py-10 bg-background border-b-2 border-gray01" id="planos">
             <div class="flex flex-col items-center justify-center md:mb-20 mb-10">
                 <img src="assets/Icon_logo.png" alt="Icone da Logo" class="md:w-[230px] w-[150px]">
                 <p class="font-paytone text-white md:text-5xl text-3xl">Nossos Planos</p>
@@ -217,7 +217,7 @@
         </section>
 
         <!-- CONTACTS -->
-        <section class="bg-contacts bg-cover bg-center lg:px-24 px-5 lg:py-16 py-10 border-b-2 border-gray01">
+        <section class="bg-contacts bg-cover bg-center lg:px-24 px-5 lg:py-16 py-10 border-b-2 border-gray01" id="contatos">
             <div class="flex flex-col items-center justify-center md:mb-20 mb-10">
                 <img src="assets/Icon_logo.png" alt="Icone da Logo" class="md:w-[230px] w-[150px]">
                 <p class="font-paytone text-white md:text-5xl text-3xl">Contatos</p>
@@ -240,7 +240,7 @@
 
         <!-- FOOTER -->
         <footer class="lg:px-24 px-5 lg:py-9 py-8 bg-background">
-            <p class="md:text-xl text-sm md:font-bold font-medium text-gray03 text-center">© 2024 Copyright App For Barber</p>
+            <p class="md:text-lg text-sm md:font-semibold font-medium text-gray03 text-center">© 2024 Copyright App For Barber</p>
         </footer>
 
     </div>
