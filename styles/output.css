@@ -795,6 +795,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-12{
+  margin-top: 3rem;
+}
+
 .mt-2{
   margin-top: 0.5rem;
 }
@@ -805,14 +809,6 @@ video {
 
 .mt-7{
   margin-top: 1.75rem;
-}
-
-.mt-8{
-  margin-top: 2rem;
-}
-
-.mt-12{
-  margin-top: 3rem;
 }
 
 .box-border{
@@ -1488,12 +1484,12 @@ video {
   justify-items: stretch;
 }
 
-.gap-10{
-  gap: 2.5rem;
+.gap-1{
+  gap: 0.25rem;
 }
 
-.gap-12{
-  gap: 3rem;
+.gap-10{
+  gap: 2.5rem;
 }
 
 .gap-2{
@@ -1514,14 +1510,6 @@ video {
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-1{
-  gap: 0.25rem;
-}
-
-.gap-6{
-  gap: 1.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -2176,6 +2164,21 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.py-9{
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -2263,11 +2266,6 @@ video {
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .text-xl{
@@ -2869,14 +2867,6 @@ body {
     top: 110px;
   }
 
-  .md\:order-1{
-    order: 1;
-  }
-
-  .md\:order-2{
-    order: 2;
-  }
-
   .md\:mb-20{
     margin-bottom: 5rem;
   }
@@ -2885,12 +2875,12 @@ body {
     margin-top: 4rem;
   }
 
-  .md\:mt-0{
-    margin-top: 0px;
-  }
-
   .md\:flex{
     display: flex;
+  }
+
+  .md\:w-12{
+    width: 3rem;
   }
 
   .md\:w-32{
@@ -2905,10 +2895,6 @@ body {
     width: 60px;
   }
 
-  .md\:w-12{
-    width: 3rem;
-  }
-
   .md\:justify-end{
     justify-content: flex-end;
   }
@@ -2917,16 +2903,16 @@ body {
     justify-content: space-between;
   }
 
-  .md\:gap-6{
-    gap: 1.5rem;
+  .md\:gap-12{
+    gap: 3rem;
   }
 
   .md\:gap-4{
     gap: 1rem;
   }
 
-  .md\:gap-12{
-    gap: 3rem;
+  .md\:gap-6{
+    gap: 1.5rem;
   }
 
   .md\:px-14{
@@ -2953,6 +2939,11 @@ body {
     line-height: 2rem;
   }
 
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .md\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -2968,9 +2959,9 @@ body {
     line-height: 1;
   }
 
-  .md\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  .md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .md\:font-bold{
@@ -3056,22 +3047,17 @@ body {
     padding-bottom: 4rem;
   }
 
+  .lg\:py-9{
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+  }
+
   .lg\:text-left{
     text-align: left;
   }
 
   .lg\:text-7xl{
     font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .lg\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .lg\:text-5xl{
-    font-size: 3rem;
     line-height: 1;
   }
 
