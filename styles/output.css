@@ -775,21 +775,12 @@ video {
   margin-bottom: 2rem;
 }
 
-.my-7{
-  margin-top: 1.75rem;
-  margin-bottom: 1.75rem;
+.mb-10{
+  margin-bottom: 2.5rem;
 }
 
-.mb-20{
-  margin-bottom: 5rem;
-}
-
-.mt-12{
-  margin-top: 3rem;
-}
-
-.mt-16{
-  margin-top: 4rem;
+.mt-10{
+  margin-top: 2.5rem;
 }
 
 .mt-2{
@@ -800,20 +791,20 @@ video {
   margin-top: 1.5rem;
 }
 
-.mb-16{
-  margin-bottom: 4rem;
-}
-
-.mb-10{
-  margin-bottom: 2.5rem;
-}
-
-.mt-10{
-  margin-top: 2.5rem;
-}
-
 .mt-7{
   margin-top: 1.75rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
+.mb-11{
+  margin-bottom: 2.75rem;
 }
 
 .box-border{
@@ -919,6 +910,14 @@ video {
   height: 2.25rem;
 }
 
+.h-full{
+  height: 100%;
+}
+
+.w-10{
+  width: 2.5rem;
+}
+
 .w-24{
   width: 6rem;
 }
@@ -931,8 +930,8 @@ video {
   width: 8rem;
 }
 
-.w-\[230px\]{
-  width: 230px;
+.w-\[150px\]{
+  width: 150px;
 }
 
 .w-\[240px\]{
@@ -955,16 +954,8 @@ video {
   width: 100%;
 }
 
-.w-\[150px\]{
-  width: 150px;
-}
-
-.w-10{
-  width: 2.5rem;
-}
-
-.w-12{
-  width: 3rem;
+.w-6{
+  width: 1.5rem;
 }
 
 .max-w-\[1440px\]{
@@ -977,6 +968,14 @@ video {
 
 .max-w-\[790px\]{
   max-width: 790px;
+}
+
+.max-w-80{
+  max-width: 20rem;
+}
+
+.max-w-\[330px\]{
+  max-width: 330px;
 }
 
 .flex-shrink{
@@ -1505,6 +1504,10 @@ video {
   gap: 2.5rem;
 }
 
+.gap-2{
+  gap: 0.5rem;
+}
+
 .gap-4{
   gap: 1rem;
 }
@@ -1513,12 +1516,8 @@ video {
   gap: 1.25rem;
 }
 
-.gap-6{
-  gap: 1.5rem;
-}
-
-.gap-2{
-  gap: 0.5rem;
+.gap-3{
+  gap: 0.75rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -1945,6 +1944,10 @@ video {
   border-top-width: 1px;
 }
 
+.border-t-2{
+  border-top-width: 2px;
+}
+
 .border-solid{
   border-style: solid;
 }
@@ -2125,19 +2128,19 @@ video {
   padding: 0.75rem;
 }
 
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
 
-.px-6{
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.py-12{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-2{
@@ -2150,14 +2153,9 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.px-2{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .text-left{
@@ -2237,11 +2235,6 @@ video {
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .text-lg{
@@ -2360,6 +2353,16 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray03{
+  --tw-text-opacity: 1;
+  color: rgb(131 136 150 / var(--tw-text-opacity));
+}
+
+.text-red-600{
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
 .underline{
@@ -2884,28 +2887,23 @@ body {
     padding-right: 3.5rem;
   }
 
-  .md\:py-10{
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
   .md\:px-6{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .md\:py-10{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .md\:text-left{
     text-align: left;
   }
 
-  .md\:text-6xl{
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .md\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .md\:text-4xl{
@@ -2913,9 +2911,14 @@ body {
     line-height: 2.5rem;
   }
 
-  .md\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
+  .md\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .md\:font-bold{
