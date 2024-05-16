@@ -683,6 +683,10 @@ video {
   top: 92px;
 }
 
+.top-\[-300px\]{
+  top: -300px;
+}
+
 .isolate{
   isolation: isolate;
 }
@@ -781,6 +785,11 @@ video {
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mb-10{

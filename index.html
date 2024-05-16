@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/output.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script defer src="script/script.js"></script>
     <title>App For Barber</title>
 </head>
 
@@ -15,7 +16,7 @@
         <!-- HEADER -->
         <header class="fixed top-0 left-0 w-full z-50" id="#">
             <nav
-                class="lg:flex lg:justify-between items-center lg:px-24 md:px-14 px-5 p-3 border-b-2 border-gray01 bg-background">
+                class="lg:flex lg:justify-between items-center lg:px-24 md:px-14 px-5 p-3 border-b-2 border-gray01 bg-background max-w-[1440px] mx-auto">
 
                 <div class="flex justify-between items-center">
                     <span class="cursor-pointer z-20 lg:z-auto">
@@ -29,10 +30,16 @@
                 <ul
                     class="lg:flex items-center font-medium text-white text-center bg-background z-10 lg:z-auto lg:static absolute top-[-280px] left-0 lg:w-auto w-full lg:opacity-100 opacity-0 transition-all ease-in duration-300">
 
-                    <li class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="#">Home</a></li>
-                    <li class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="#sobre">Sobre</a></li>
-                    <li class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="#planos">Planos</a></li>
-                    <li class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="#contatos">Contatos</a></li>
+                    <li class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a onclick="Menu(this)"
+                            href="/#">Home</a></li>
+                    <li class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a onclick="Menu(this)"
+                            href="/#sobre">Sobre</a>
+                    </li>
+                    <li class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a onclick="Menu(this)"
+                            href="/#planos">Planos</a>
+                    </li>
+                    <li class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a onclick="Menu(this)"
+                            href="#contatos">Contatos</a></li>
 
                     <button
                         class="mx-2 lg:my-0 my-6 bg-gray01 font-medium text-white px-10 py-2 rounded-lg hover:bg-gray02 hover:text-white duration-500">Barbearias</button>
@@ -126,15 +133,15 @@
                     <div class="w-full border-t-2 border-gray01"></div>
                     <ul class="flex flex-col gap-3 mt-10">
                         <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Agendamento
-                        Online</li>
-                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Movimentações</li>
-                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Pagamentos de Comandas
-                    </li>
-                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Comissões</li>
+                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Agendamento
+                            Online</li>
+                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Movimentações</li>
+                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Pagamentos de Comandas
+                        </li>
+                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Comissões</li>
                         <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
                                 class="text-red-600 text-2xl" name="close-outline"></ion-icon>Promoções</li>
                         <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
@@ -170,13 +177,15 @@
                         <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
                                 class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Comissões</li>
                         <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Promoções</li>
+                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Promoções</li>
                         <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Relatórios</li>
+                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Relatórios</li>
                         <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Controle Financeiro</li>
+                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Controle Financeiro
+                        </li>
                         <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Controle de Estoque</li>
+                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Controle de Estoque
+                        </li>
                     </ul>
                 </div>
 
@@ -208,24 +217,29 @@
                         <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
                                 class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Relatórios</li>
                         <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Controle Financeiro</li>
+                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Controle Financeiro
+                        </li>
                         <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Controle de Estoque</li>
+                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Controle de Estoque
+                        </li>
                     </ul>
                 </div>
             </div>
         </section>
 
         <!-- CONTACTS -->
-        <section class="bg-contacts bg-cover bg-center lg:px-24 px-5 lg:py-16 py-10 border-b-2 border-gray01" id="contatos">
+        <section class="bg-contacts bg-cover bg-center lg:px-24 px-5 lg:py-16 py-10 border-b-2 border-gray01"
+            id="contatos">
             <div class="flex flex-col items-center justify-center md:mb-20 mb-10">
                 <img src="assets/Icon_logo.png" alt="Icone da Logo" class="md:w-[230px] w-[150px]">
                 <p class="font-paytone text-white md:text-5xl text-3xl">Contatos</p>
             </div>
             <div class="flex lg:flex-row flex-col lg:justify-between justify-center items-center">
                 <div class="flex flex-col gap-3 lg:order-1 order-2 lg:mt-0 mt-12">
-                    <p class="flex items-center md:gap-4 gap-1 md:text-3xl text-xl font-semibold text-white"><ion-icon class="md:text-5xl text-3xl" name="mail-outline"></ion-icon>contato@appforbarber.com.br</p>
-                    <p class="flex items-center md:gap-4 gap-1 md:text-3xl text-xl font-semibold text-white"><ion-icon class="md:text-5xl text-3xl" name="logo-whatsapp"></ion-icon>75 99900-9900</p>
+                    <p class="flex items-center md:gap-4 gap-1 md:text-3xl text-xl font-semibold text-white"><ion-icon
+                            class="md:text-5xl text-3xl" name="mail-outline"></ion-icon>contato@appforbarber.com.br</p>
+                    <p class="flex items-center md:gap-4 gap-1 md:text-3xl text-xl font-semibold text-white"><ion-icon
+                            class="md:text-5xl text-3xl" name="logo-whatsapp"></ion-icon>75 99900-9900</p>
                 </div>
                 <div class="flex flex-col gap-3 lg:order-2 order-1">
                     <p class="md:text-3xl text-xl font-bold text-white">Social</p>
@@ -240,12 +254,12 @@
 
         <!-- FOOTER -->
         <footer class="lg:px-24 px-5 lg:py-9 py-8 bg-background">
-            <p class="md:text-lg text-sm md:font-semibold font-medium text-gray03 text-center">© 2024 Copyright App For Barber</p>
+            <p class="md:text-lg text-sm md:font-semibold font-medium text-gray03 text-center">© 2024 Copyright App For
+                Barber</p>
         </footer>
 
     </div>
 
-    <script src="script/script.js"></script>
 </body>
 
 </html>

@@ -15,6 +15,6 @@
 function Menu(e) {
   let list = document.querySelector("ul");
 
-  e.name === "menu" ? e.name = "close" : e.name = "menu"
+  e.name === "menu" ? (e.name = "close") : (e.name = "menu");
   list.classList.toggle("top-[92px]"), list.classList.toggle("opacity-100");
 }
