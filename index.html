@@ -20,26 +20,23 @@
 
                 <div class="flex justify-between items-center">
                     <span class="cursor-pointer z-20 lg:z-auto">
-                        <img src="assets/logo.png" alt="Logo" class="md:w-32 w-24">
+                        <a onclick="handleClick()" href="/#"><img src="assets/logo.png" alt="Logo" class="md:w-32 w-24"></a>
                     </span>
 
-                    <span class="text-3xl text-white cursor-pointer lg:hidden block z-20 lg:z-auto">
-                        <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
-                    </span>
+                    <button  class="flex flex-col items-center gap-1 border-0 cursor-pointer bg-transparent lg:hidden z-20 lg:z-auto" onclick="handleClick()">
+                        <span id="btn_toggle1" class="bg-white h-[3px] w-[30px] rounded-[10px] transition-all duration-100 "></span>
+                        <span id="btn_toggle2" class="bg-white h-[3px] w-[30px] rounded-[10px] transition-all duration-100"></span>
+                        <span id="btn_toggle3" class="bg-white h-[3px] w-[30px] rounded-[10px] transition-all duration-100"></span>
+                    </button>
+
                 </div>
                 <ul
                     class="lg:flex items-center font-medium text-white text-center bg-background z-10 lg:z-auto lg:static absolute top-[-280px] left-0 lg:w-auto w-full lg:opacity-100 opacity-0 transition-all ease-in duration-300">
 
-                    <li class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a onclick="Menu(this)"
-                            href="/#">Home</a></li>
-                    <li class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a onclick="Menu(this)"
-                            href="/#sobre">Sobre</a>
-                    </li>
-                    <li class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a onclick="Menu(this)"
-                            href="/#planos">Planos</a>
-                    </li>
-                    <li class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a onclick="Menu(this)"
-                            href="#contatos">Contatos</a></li>
+                    <li onclick="handleClick()" class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="/#">Home</a></li>
+                    <li onclick="handleClick()" class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="/#sobre">Sobre</a></li>
+                    <li onclick="handleClick()" class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="/#planos">Planos</a></li>
+                    <li onclick="handleClick()" class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="#contatos">Contatos</a></li>
 
                     <button
                         class="mx-2 lg:my-0 my-6 bg-gray01 font-medium text-white px-10 py-2 rounded-lg hover:bg-gray02 hover:text-white duration-500">Barbearias</button>
@@ -259,6 +256,12 @@
         </footer>
 
     </div>
+
+    <!-- Esse é o botão mobile antigo -->
+    <!-- <span class="text-3xl text-white cursor-pointer lg:hidden block z-20 lg:z-auto">
+            <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+            <ion-icon name="close"></ion-icon>
+        </span> -->
 
 </body>
 
