@@ -14,13 +14,13 @@
 <body class="bg-secondary md:pt-[113px] pt-[90px]">
     <div class="max-w-[1440px] m-auto">
         <!-- HEADER -->
-        <header class="fixed top-0 left-0 w-full z-50" id="#">
+        <header class="fixed top-0 left-0 w-full z-50">
             <nav
                 class="lg:flex lg:justify-between items-center lg:px-24 md:px-14 px-5 p-3 border-b-2 border-gray01 bg-background max-w-[1440px] mx-auto">
 
                 <div class="flex justify-between items-center">
                     <span class="cursor-pointer z-20 lg:z-auto">
-                        <a onclick="handleClick()" href="/#"><img src="assets/logo.png" alt="Logo" class="md:w-32 w-24"></a>
+                        <a href="/#"><img src="assets/logo.png" alt="Logo" class="md:w-32 w-24"></a>
                     </span>
 
                     <button  class="flex flex-col items-center gap-1 border-0 cursor-pointer bg-transparent lg:hidden z-20 lg:z-auto" onclick="handleClick()">
@@ -33,15 +33,15 @@
                 <ul
                     class="lg:flex items-center font-medium text-white text-center bg-background z-10 lg:z-auto lg:static absolute top-[-280px] left-0 lg:w-auto w-full lg:opacity-100 opacity-0 transition-all ease-in duration-300">
 
-                    <li onclick="handleClick()" class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="/#">Home</a></li>
-                    <li onclick="handleClick()" class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="/#sobre">Sobre</a></li>
-                    <li onclick="handleClick()" class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="/#planos">Planos</a></li>
-                    <li onclick="handleClick()" class="lg:mx-7 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="#contatos">Contatos</a></li>
+                    <li onclick="handleClick()" class="lg:mx-6 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="/#">Home</a></li>
+                    <li onclick="handleClick()" class="lg:mx-6 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="/#sobre">Sobre</a></li>
+                    <li onclick="handleClick()" class="lg:mx-6 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="/#planos">Planos</a></li>
+                    <li onclick="handleClick()" class="lg:mx-6 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a href="#contatos">Contatos</a></li>
 
                     <button
-                        class="mx-2 lg:my-0 my-6 bg-gray01 font-medium text-white px-10 py-2 rounded-lg hover:bg-gray02 hover:text-white duration-500">Barbearias</button>
+                        class="mx-2 lg:my-0 my-6 px-7 py-2 bg-gray01 font-medium text-white rounded-lg hover:bg-gray02 hover:text-white duration-500">Barbearias</button>
                     <button
-                        class="mx-2 lg:my-0 my-6 bg-primary font-bold text-secondary px-12 py-2 rounded-lg hover:bg-gray02 hover:text-white duration-500">Clientes</button>
+                        class="mx-2 lg:my-0 my-6 px-9 py-2 bg-primary font-bold text-secondary rounded-lg hover:bg-gray02 hover:text-white duration-500">Clientes</button>
                 </ul>
             </nav>
         </header>
@@ -62,7 +62,7 @@
                 </div>
             </div>
 
-            <div class="font-nunito flex justify-center gap-10 mt-6">
+            <div class="font-nunito flex justify-center md:gap-10 gap-4 mt-6">
                 <button
                     class="bg-gray01 font-medium text-white px-10 py-2 rounded-lg hover:bg-gray02 hover:text-white duration-500">Barbearias</button>
                 <button
@@ -233,17 +233,17 @@
             </div>
             <div class="flex lg:flex-row flex-col lg:justify-between justify-center items-center">
                 <div class="flex flex-col gap-3 lg:order-1 order-2 lg:mt-0 mt-12">
-                    <p class="flex items-center md:gap-4 gap-1 md:text-3xl text-xl font-semibold text-white"><ion-icon
-                            class="md:text-5xl text-3xl" name="mail-outline"></ion-icon>contato@appforbarber.com.br</p>
-                    <p class="flex items-center md:gap-4 gap-1 md:text-3xl text-xl font-semibold text-white"><ion-icon
-                            class="md:text-5xl text-3xl" name="logo-whatsapp"></ion-icon>75 99900-9900</p>
+                    <a href="#"><p class="flex items-center md:gap-4 gap-1 md:text-3xl text-xl font-semibold text-white"><ion-icon
+                        class="md:text-5xl text-3xl" name="mail-outline"></ion-icon>contato@appforbarber.com.br</p></a>
+                    <a href="#"><p class="flex items-center md:gap-4 gap-1 md:text-3xl text-xl font-semibold text-white"><ion-icon
+                        class="md:text-5xl text-3xl" name="logo-whatsapp"></ion-icon>75 99900-9900</p></a>
                 </div>
                 <div class="flex flex-col gap-3 lg:order-2 order-1">
                     <p class="md:text-3xl text-xl font-bold text-white">Social</p>
                     <div class="flex items-center md:gap-12 gap-8">
-                        <img src="assets/icon_insta.png" alt="Icone Instagram" class="md:w-12 w-10">
-                        <img src="assets/icon_x.png" alt="Icone X" class="md:w-12 w-10">
-                        <img src="assets/icon_youtube.png" alt="Icone YouTube" class="md:w-12 w-10">
+                        <a href="#"><img src="assets/icon_insta.png" alt="Icone Instagram" class="md:w-12 w-10"></a>
+                        <a href="#"><img src="assets/icon_x.png" alt="Icone X" class="md:w-12 w-10"></a>
+                        <a href="#"><img src="assets/icon_youtube.png" alt="Icone YouTube" class="md:w-12 w-10"></a>
                     </div>
                 </div>
             </div>
