@@ -788,11 +788,6 @@ video {
   margin-bottom: 2rem;
 }
 
-.my-10{
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
 .mb-10{
   margin-bottom: 2.5rem;
 }
@@ -2251,6 +2246,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .pt-\[90px\]{
   padding-top: 90px;
 }
@@ -2947,10 +2947,6 @@ body {
 }
 
 @media (min-width: 768px){
-  .md\:top-\[110px\]{
-    top: 110px;
-  }
-
   .md\:mb-20{
     margin-bottom: 5rem;
   }
@@ -3018,16 +3014,8 @@ body {
     padding-bottom: 2.5rem;
   }
 
-  .md\:pt-\[113\]{
-    padding-top: 113;
-  }
-
   .md\:pt-\[113px\]{
     padding-top: 113px;
-  }
-
-  .md\:pt-\[200px\]{
-    padding-top: 200px;
   }
 
   .md\:text-left{
@@ -3104,17 +3092,8 @@ body {
     margin-bottom: 0px;
   }
 
-  .lg\:my-16{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-  }
-
   .lg\:mt-0{
     margin-top: 0px;
-  }
-
-  .lg\:mt-16{
-    margin-top: 4rem;
   }
 
   .lg\:flex{
