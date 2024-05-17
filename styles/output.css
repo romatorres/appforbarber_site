@@ -683,10 +683,6 @@ video {
   top: 92px;
 }
 
-.top-\[-290px\]{
-  top: -290px;
-}
-
 .isolate{
   isolation: isolate;
 }
@@ -790,6 +786,11 @@ video {
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.my-10{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .mb-10{
@@ -1546,10 +1547,6 @@ video {
   gap: 0.25rem;
 }
 
-.gap-10{
-  gap: 2.5rem;
-}
-
 .gap-2{
   gap: 0.5rem;
 }
@@ -1568,10 +1565,6 @@ video {
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-6{
-  gap: 1.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -2228,6 +2221,16 @@ video {
   padding-right: 1.25rem;
 }
 
+.px-7{
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.px-9{
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
 .py-10{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -2246,21 +2249,6 @@ video {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.px-9{
-  padding-left: 2.25rem;
-  padding-right: 2.25rem;
-}
-
-.px-7{
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
 }
 
 .pt-\[90px\]{
@@ -2999,6 +2987,10 @@ body {
     justify-content: space-between;
   }
 
+  .md\:gap-10{
+    gap: 2.5rem;
+  }
+
   .md\:gap-12{
     gap: 3rem;
   }
@@ -3009,10 +3001,6 @@ body {
 
   .md\:gap-6{
     gap: 1.5rem;
-  }
-
-  .md\:gap-10{
-    gap: 2.5rem;
   }
 
   .md\:px-14{
@@ -3030,8 +3018,16 @@ body {
     padding-bottom: 2.5rem;
   }
 
+  .md\:pt-\[113\]{
+    padding-top: 113;
+  }
+
   .md\:pt-\[113px\]{
     padding-top: 113px;
+  }
+
+  .md\:pt-\[200px\]{
+    padding-top: 200px;
   }
 
   .md\:text-left{
@@ -3098,9 +3094,9 @@ body {
     order: 2;
   }
 
-  .lg\:mx-7{
-    margin-left: 1.75rem;
-    margin-right: 1.75rem;
+  .lg\:mx-6{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
 
   .lg\:my-0{
@@ -3108,13 +3104,17 @@ body {
     margin-bottom: 0px;
   }
 
-  .lg\:mx-6{
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+  .lg\:my-16{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
 
   .lg\:mt-0{
     margin-top: 0px;
+  }
+
+  .lg\:mt-16{
+    margin-top: 4rem;
   }
 
   .lg\:flex{
