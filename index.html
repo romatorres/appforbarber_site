@@ -12,58 +12,58 @@
     <title>App For Barber</title>
 </head>
 
-<body class="bg-secondary md:pt-[113px] pt-[90px]">
-    <div class="max-w-[1440px] m-auto">
-        <!-- HEADER -->
-        <header class="fixed top-0 left-0 w-full z-50">
-            <nav
-                class="lg:flex lg:justify-between items-center lg:px-24 md:px-14 px-5 p-3 border-b-2 border-gray01 bg-background max-w-[1440px] mx-auto">
+<body class="bg-background md:pt-[113px] pt-[90px]">
 
-                <div class="flex justify-between items-center">
-                    <div class="cursor-pointer z-20 lg:z-auto">
-                        <a href="/#"><img src="assets/logo.png" alt="Logo" class="md:w-32 w-24"></a>
-                    </div>
+    <!-- HEADER -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-background">
+        <nav class="max-w-[1440px] mx-auto lg:flex lg:justify-between items-center lg:px-24 md:px-14 px-5 p-3">
 
-                    <button
-                        class="flex flex-col items-center gap-1 border-0 cursor-pointer bg-transparent lg:hidden z-20 lg:z-auto"
-                        onclick="handleClick()">
-                        <span id="btn_toggle1"
-                            class="bg-white h-[3px] w-[30px] rounded-[10px] transition-all duration-100 "></span>
-                        <span id="btn_toggle2"
-                            class="bg-white h-[3px] w-[30px] rounded-[10px] transition-all duration-100"></span>
-                        <span id="btn_toggle3"
-                            class="bg-white h-[3px] w-[30px] rounded-[10px] transition-all duration-100"></span>
-                    </button>
-
+            <div class="flex justify-between items-center">
+                <div class="cursor-pointer z-20 lg:z-auto">
+                    <a href="/#"><img src="assets/logo.png" alt="Logo" class="md:w-32 w-24"></a>
                 </div>
-                <ul
-                    class="lg:flex items-center font-semibold text-white text-center bg-background z-10 lg:z-auto lg:static absolute top-[-280px] left-0 lg:w-auto w-full lg:opacity-100 opacity-0 transition-all ease-in duration-300">
 
-                    <li onclick="handleClick()" class="lg:mx-6 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a
-                            href="/#">Home</a></li>
-                    <li onclick="handleClick()" class="lg:mx-6 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a
-                            href="/#sobre">Sobre</a></li>
-                    <li onclick="handleClick()" class="lg:mx-6 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a
-                            href="/#planos">Planos</a></li>
-                    <li onclick="handleClick()" class="lg:mx-6 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a
-                            href="#contatos">Contatos</a></li>
+                <button
+                    class="flex flex-col items-center gap-1 border-0 cursor-pointer bg-transparent lg:hidden z-20 lg:z-auto"
+                    onclick="handleClick()">
+                    <span id="btn_toggle1"
+                        class="bg-white h-[3px] w-[30px] rounded-[10px] transition-all duration-100 "></span>
+                    <span id="btn_toggle2"
+                        class="bg-white h-[3px] w-[30px] rounded-[10px] transition-all duration-100"></span>
+                    <span id="btn_toggle3"
+                        class="bg-white h-[3px] w-[30px] rounded-[10px] transition-all duration-100"></span>
+                </button>
 
-                    <button
-                        class="mx-2 lg:my-0 my-6 px-7 py-2 bg-gray01 font-medium text-white rounded-lg hover:bg-gray02 hover:text-white duration-500">Barbearias</button>
-                    <button
-                        class="mx-2 lg:my-0 my-6 px-9 py-2 bg-primary font-bold text-secondary rounded-lg hover:bg-gray02 hover:text-white duration-500">Clientes</button>
-                </ul>
-            </nav>
-        </header>
+            </div>
+            <ul
+                class="lg:flex items-center font-semibold text-white text-center bg-background z-10 lg:z-auto lg:static absolute top-[-280px] left-0 lg:w-auto w-full lg:opacity-100 opacity-0 transition-all ease-in duration-300">
 
-        <!-- HERO -->
-        <section
-            class="bg-slide bg-cover bg-center lg:px-24 md:px-14 px-5 lg:py-12 md:py-10 py-6 z-[-2] lg:z-auto border-b-2 border-gray01">
+                <li onclick="handleClick()" class="lg:mx-6 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a
+                        href="/#">Home</a></li>
+                <li onclick="handleClick()" class="lg:mx-6 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a
+                        href="/#sobre">Sobre</a></li>
+                <li onclick="handleClick()" class="lg:mx-6 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a
+                        href="/#planos">Planos</a></li>
+                <li onclick="handleClick()" class="lg:mx-6 mx-0 my-8 lg:my-0 hover:text-gray03 duration-500"><a
+                        href="#contatos">Contatos</a></li>
+
+                <button
+                    class="mx-2 lg:my-0 my-6 px-7 py-2 bg-gray01 font-medium text-white rounded-lg hover:bg-gray02 hover:text-white duration-500">Barbearias</button>
+                <button
+                    class="mx-2 lg:my-0 my-6 px-9 py-2 bg-primary font-bold text-secondary rounded-lg hover:bg-gray02 hover:text-white duration-500">Clientes</button>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="bg-slide bg-cover bg-center">
+        <div class="max-w-[1440px] m-auto lg:px-24 md:px-14 px-5 lg:py-12 md:py-10 py-6 z-[-2] lg:z-auto">
             <div class="md:flex md:justify-between">
                 <div class="text-white font-paytone">
                     <h1
                         class="lg:text-7xl lg:leading-tight lg:text-left md:text-6xl md:leading-tight md:text-left text-4xl text-center leading-normal">
-                        Moderno, bonito, inteligente... <br><span class="text-primary">App For Barber,</span> <br>um app
+                        Moderno, bonito, inteligente... <br><span class="text-primary">App For Barber,</span> <br>um
+                        app
                         para <br> Barbearias!!
                     </h1>
                 </div>
@@ -78,166 +78,167 @@
                 <button
                     class="bg-primary font-bold text-secondary px-12 py-2 rounded-lg hover:bg-gray02 hover:text-white duration-500">Clientes</button>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- ABOUT -->
-        <section class="lg:px-24 px-5 lg:py-16 py-10 bg-background border-b-2 border-gray01">
-            <div class="flex flex-col items-center justify-center md:mb-20 mb-10">
-                <img src="assets/Icon_logo.png" alt="Icone da Logo" class="md:w-[230px] w-[150px]">
-                <p class="font-paytone text-white md:text-5xl text-3xl">Sobre Nós</p>
+    <!-- ABOUT -->
+    <section class="max-w-[1440px] mx-auto lg:px-24 px-5 lg:py-16 py-10 bg-background border-b-2 border-gray01">
+        <div class="flex flex-col items-center justify-center md:mb-20 mb-10">
+            <img src="assets/Icon_logo.png" alt="Icone da Logo" class="md:w-[230px] w-[150px]">
+            <p class="font-paytone text-white md:text-5xl text-3xl">Sobre Nós</p>
+        </div>
+        <div class="flex lg:flex-row flex-col lg:justify-between justify-center items-center gap-4">
+            <div class="w-full max-w-[280px] lg:order-1 order-2 lg:mt-0 mt-7">
+                <img src="assets/mockup02.png" alt="Telefone com imagens">
             </div>
-            <div class="flex lg:flex-row flex-col lg:justify-between justify-center items-center gap-4">
-                <div class="w-full max-w-[280px] lg:order-1 order-2 lg:mt-0 mt-7">
-                    <img src="assets/mockup02.png" alt="Telefone com imagens">
-                </div>
-                <div class="w-full max-w-[790px] lg:order-2 order-1">
-                    <h2 class="font-paytone text-white md:text-4xl text-2xl leading-normal">Agora ficou fácil agendar e
-                        administrar sua barbearia. Aqui, combinamos tecnologia de ponta, com um design arrojado e
-                        intuitivo.</h2>
-                    <div class="flex flex-col gap-5 md:mt-16 mt-10">
-                        <div
-                            class="flex items-center md:gap-6 gap-2 py-2 md:px-6 px-2 rounded-lg bg-secondary border border-gray01">
-                            <img src="assets/icon-agenda.png" alt="Icone Agenda" class="md:w-[60px] w-10">
-                            <p class="text-white md:text-2xl text-lg md:font-bold font-semibold">Agenda fácil para seus
-                                clientes</p>
-                        </div>
-                        <div
-                            class="flex items-center md:gap-6 gap-2 py-2 md:px-6 px-2 rounded-lg bg-secondary border border-gray01">
-                            <img src="assets/icon-dashboard.png" alt="Icone Agenda" class="md:w-[60px] w-10">
-                            <p class="text-white md:text-2xl text-lg md:font-bold font-semibold">Painel de controle
-                                completo e descomplicado</p>
-                        </div>
-                        <div
-                            class="flex items-center md:gap-6 gap-2 py-2 md:px-6 px-2 rounded-lg bg-secondary border border-gray01">
-                            <img src="assets/icon-config.png" alt="Icone Agenda" class="md:w-[60px] w-10">
-                            <p class="text-white md:text-2xl text-lg md:font-bold font-semibold">Administre
-                                os serviços,
-                                agendas, clientes, porfissionais, comissões...</p>
-                        </div>
+            <div class="w-full max-w-[790px] lg:order-2 order-1">
+                <h2 class="font-paytone text-white md:text-4xl text-2xl leading-normal">Agora ficou fácil agendar e
+                    administrar sua barbearia. Aqui, combinamos tecnologia de ponta, com um design arrojado e
+                    intuitivo.</h2>
+                <div class="flex flex-col gap-5 md:mt-16 mt-10">
+                    <div
+                        class="flex items-center md:gap-6 gap-2 py-2 md:px-6 px-2 rounded-lg bg-secondary border border-gray01">
+                        <img src="assets/icon-agenda.png" alt="Icone Agenda" class="md:w-[60px] w-10">
+                        <p class="text-white md:text-2xl text-lg md:font-bold font-semibold">Agenda fácil para seus
+                            clientes</p>
+                    </div>
+                    <div
+                        class="flex items-center md:gap-6 gap-2 py-2 md:px-6 px-2 rounded-lg bg-secondary border border-gray01">
+                        <img src="assets/icon-dashboard.png" alt="Icone Agenda" class="md:w-[60px] w-10">
+                        <p class="text-white md:text-2xl text-lg md:font-bold font-semibold">Painel de controle
+                            completo e descomplicado</p>
+                    </div>
+                    <div
+                        class="flex items-center md:gap-6 gap-2 py-2 md:px-6 px-2 rounded-lg bg-secondary border border-gray01">
+                        <img src="assets/icon-config.png" alt="Icone Agenda" class="md:w-[60px] w-10">
+                        <p class="text-white md:text-2xl text-lg md:font-bold font-semibold">Administre
+                            os serviços,
+                            agendas, clientes, porfissionais, comissões...</p>
                     </div>
                 </div>
             </div>
-            <div id="planos" class="py-4"></div>
-        </section>
+        </div>
+        <div id="planos" class="py-4"></div>
+    </section>
 
-        <!-- PLANS -->
-        <section class="lg:px-24 px-5 lg:py-16 py-10 bg-background border-b-2 border-gray01">
-            <div class="flex flex-col items-center justify-center md:mb-20 mb-10">
-                <img src="assets/Icon_logo.png" alt="Icone da Logo" class="md:w-[230px] w-[150px]">
-                <p class="font-paytone text-white md:text-5xl text-3xl">Nossos Planos</p>
+    <!-- PLANS -->
+    <section class="max-w-[1440px] mx-auto lg:px-24 px-5 lg:py-16 py-10 bg-background">
+        <div class="flex flex-col items-center justify-center md:mb-20 mb-10">
+            <img src="assets/Icon_logo.png" alt="Icone da Logo" class="md:w-[230px] w-[150px]">
+            <p class="font-paytone text-white md:text-5xl text-3xl">Nossos Planos</p>
+        </div>
+        <div class="flex lg:flex-row flex-col lg:justify-around justify-center items-center lg:gap-4 gap-8">
+            <div class="rounded-lg bg-secondary border border-gray01 w-[330px] px-4 py-6">
+                <h3 class="text-white font-bold text-lg mb-2">BASIC</h3>
+                <p class="text-gray03 text-sm font-semibold mb-6">Até 2 Profissionais</p>
+                <button
+                    class="bg-primary text-sm font-bold text-secondary w-full h-9 mb-11 rounded-lg hover:bg-gray02 hover:text-white duration-500">
+                    Escolha o Basic</button>
+                <div class="flex items-end gap-2 mb-10">
+                    <h2 class="text-3xl text-white font-bold">R$59,90</h2>
+                    <p class="text-lg text-gray03 font-bold"> /mês</p>
+                </div>
+
+                <div class="w-full border-t-2 border-gray01"></div>
+                <ul class="flex flex-col gap-3 mt-10">
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Agendamento
+                        Online</li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Movimentações</li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Pagamentos de Comandas
+                    </li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Comissões</li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-red-600 text-2xl" name="close-outline"></ion-icon>Promoções</li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-red-600 text-2xl" name="close-outline"></ion-icon>Relatórios</li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-red-600 text-2xl" name="close-outline"></ion-icon>Controle Financeiro</li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-red-600 text-2xl" name="close-outline"></ion-icon>Controle de Estoque</li>
+                </ul>
             </div>
-            <div class="flex lg:flex-row flex-col lg:justify-around justify-center items-center lg:gap-4 gap-8">
-                <div class="rounded-lg bg-secondary border border-gray01 w-[330px] px-4 py-6">
-                    <h3 class="text-white font-bold text-lg mb-2">BASIC</h3>
-                    <p class="text-gray03 text-sm font-semibold mb-6">Até 2 Profissionais</p>
-                    <button
-                        class="bg-primary text-sm font-bold text-secondary w-full h-9 mb-11 rounded-lg hover:bg-gray02 hover:text-white duration-500">
-                        Escolha o Basic</button>
-                    <div class="flex items-end gap-2 mb-10">
-                        <h2 class="text-3xl text-white font-bold">R$59,90</h2>
-                        <p class="text-lg text-gray03 font-bold"> /mês</p>
-                    </div>
 
-                    <div class="w-full border-t-2 border-gray01"></div>
-                    <ul class="flex flex-col gap-3 mt-10">
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Agendamento
-                            Online</li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Movimentações</li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Pagamentos de Comandas
-                        </li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Comissões</li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-red-600 text-2xl" name="close-outline"></ion-icon>Promoções</li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-red-600 text-2xl" name="close-outline"></ion-icon>Relatórios</li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-red-600 text-2xl" name="close-outline"></ion-icon>Controle Financeiro</li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-red-600 text-2xl" name="close-outline"></ion-icon>Controle de Estoque</li>
-                    </ul>
+            <div class="rounded-lg bg-secondary border border-gray01 w-[330px] px-4 py-6">
+                <h3 class="text-white font-bold text-lg mb-2">STANDARD</h3>
+                <p class="text-gray03 text-sm font-semibold mb-6">Até 5 Profissionais</p>
+                <button
+                    class="bg-primary text-sm font-bold text-secondary w-full h-9 mb-11 rounded-lg hover:bg-gray02 hover:text-white duration-500">
+                    Escolha o Standard</button>
+                <div class="flex items-end gap-2 mb-10">
+                    <h2 class="text-3xl text-white font-bold">R$89,90</h2>
+                    <p class="text-lg text-gray03 font-bold"> /mês</p>
                 </div>
 
-                <div class="rounded-lg bg-secondary border border-gray01 w-[330px] px-4 py-6">
-                    <h3 class="text-white font-bold text-lg mb-2">STANDARD</h3>
-                    <p class="text-gray03 text-sm font-semibold mb-6">Até 5 Profissionais</p>
-                    <button
-                        class="bg-primary text-sm font-bold text-secondary w-full h-9 mb-11 rounded-lg hover:bg-gray02 hover:text-white duration-500">
-                        Escolha o Standard</button>
-                    <div class="flex items-end gap-2 mb-10">
-                        <h2 class="text-3xl text-white font-bold">R$89,90</h2>
-                        <p class="text-lg text-gray03 font-bold"> /mês</p>
-                    </div>
-
-                    <div class="w-full border-t-2 border-gray01"></div>
-                    <ul class="flex flex-col gap-3 mt-10">
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Agendamento
-                            Online</li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Movimentações</li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Pagamentos de Comandas
-                        </li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Comissões</li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Promoções</li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Relatórios</li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Controle Financeiro
-                        </li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Controle de Estoque
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="rounded-lg bg-secondary border border-gray01 w-[330px] px-4 py-6">
-                    <h3 class="text-white font-bold text-lg mb-2">PREMIUM</h3>
-                    <p class="text-gray03 text-sm font-semibold mb-6">Profissionais Ilimitados</p>
-                    <button
-                        class="bg-primary text-sm font-bold text-secondary w-full h-9 mb-11 rounded-lg hover:bg-gray02 hover:text-white duration-500">
-                        Escolha o Premium</button>
-                    <div class="flex items-end gap-2 mb-10">
-                        <h2 class="text-3xl text-white font-bold">R$129,90</h2>
-                        <p class="text-lg text-gray03 font-bold"> /mês</p>
-                    </div>
-
-                    <div class="w-full border-t-2 border-gray01"></div>
-                    <ul class="flex flex-col gap-3 mt-10">
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Agendamento
-                            Online</li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Movimentações</li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Pagamentos de Comandas
-                        </li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Comissões</li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Promoções</li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Relatórios</li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Controle Financeiro
-                        </li>
-                        <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
-                                class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Controle de Estoque
-                        </li>
-                    </ul>
-                </div>
+                <div class="w-full border-t-2 border-gray01"></div>
+                <ul class="flex flex-col gap-3 mt-10">
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Agendamento
+                        Online</li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Movimentações</li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Pagamentos de Comandas
+                    </li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Comissões</li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Promoções</li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Relatórios</li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Controle Financeiro
+                    </li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Controle de Estoque
+                    </li>
+                </ul>
             </div>
-        </section>
 
-        <!-- CONTACTS -->
-        <section class="bg-contacts bg-cover bg-center lg:px-24 px-5 lg:py-16 py-10 border-b-2 border-gray01"
-            id="contatos">
+            <div class="rounded-lg bg-secondary border border-gray01 w-[330px] px-4 py-6">
+                <h3 class="text-white font-bold text-lg mb-2">PREMIUM</h3>
+                <p class="text-gray03 text-sm font-semibold mb-6">Profissionais Ilimitados</p>
+                <button
+                    class="bg-primary text-sm font-bold text-secondary w-full h-9 mb-11 rounded-lg hover:bg-gray02 hover:text-white duration-500">
+                    Escolha o Premium</button>
+                <div class="flex items-end gap-2 mb-10">
+                    <h2 class="text-3xl text-white font-bold">R$129,90</h2>
+                    <p class="text-lg text-gray03 font-bold"> /mês</p>
+                </div>
+
+                <div class="w-full border-t-2 border-gray01"></div>
+                <ul class="flex flex-col gap-3 mt-10">
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Agendamento
+                        Online</li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Movimentações</li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Pagamentos de Comandas
+                    </li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Comissões</li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Promoções</li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Relatórios</li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Controle Financeiro
+                    </li>
+                    <li class="flex items-center gap-2 font-semibold text-gray03"><ion-icon
+                            class="text-primary text-2xl" name="checkmark-outline"></ion-icon>Controle de Estoque
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTS -->
+    <section class="bg-contacts bg-cover bg-center" id="contatos">
+        <div class="max-w-[1440px] mx-auto lg:px-24 px-5 lg:py-16 py-10 border-b-2 border-gray01">
             <div class="flex flex-col items-center justify-center md:mb-20 mb-10">
                 <img src="assets/Icon_logo.png" alt="Icone da Logo" class="md:w-[230px] w-[150px]">
                 <p class="font-paytone text-white md:text-5xl text-3xl">Contatos</p>
@@ -265,15 +266,15 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- FOOTER -->
-        <footer class="lg:px-24 px-5 lg:py-9 py-8 bg-background">
-            <p class="md:text-lg text-sm md:font-semibold font-medium text-gray03 text-center">© 2024 Copyright App For
-                Barber</p>
-        </footer>
+    <!-- FOOTER -->
+    <footer class="lg:px-24 px-5 lg:py-9 py-8 bg-background">
+        <p class="md:text-lg text-sm md:font-semibold font-medium text-gray03 text-center">© 2024 Copyright App For
+            Barber</p>
+    </footer>
 
-    </div>
 
 </body>
 
